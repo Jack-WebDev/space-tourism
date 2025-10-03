@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row justify-between lg:justify-around items-center relative gap-12 bottom-52 text-center">
+    <div className="flex flex-col lg:flex-row justify-between lg:justify-around items-center relative gap-12 bottom-52 text-start">
       <div className="grid gap-6 text-white px-4">
         <p className="font-barlow-condensed tracking-widest text-2xl text-white/60">
           SO, YOU WANT TO TRAVEL TO
