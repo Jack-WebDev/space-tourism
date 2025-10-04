@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <div className="flex flex-col lg:flex-row justify-between lg:justify-around items-center relative gap-12 bottom-52 text-start">
@@ -16,7 +18,9 @@ export default function Hero() {
         </p>
       </div>
       <button className="relative bg-white rounded-full aspect-square w-[40vw] lg:w-[20vw] max-w-[300px] grid place-items-center wave-hover cursor-pointer">
-        <a href="/destination" className="text-2xl lg:text-5xl font-bellefair">EXPLORE</a>
+        <Link to="/destination" className="text-2xl lg:text-5xl font-bellefair">
+          EXPLORE
+        </Link>
       </button>
     </div>
   );
