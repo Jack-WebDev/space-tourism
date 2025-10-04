@@ -15,9 +15,9 @@ export default function Hero() {
           this world experience!
         </p>
       </div>
-      <div className="relative bg-white rounded-full aspect-square w-[40vw] lg:w-[20vw] max-w-[300px] grid place-items-center wave-hover cursor-pointer">
+      <button className="relative bg-white rounded-full aspect-square w-[40vw] lg:w-[20vw] max-w-[300px] grid place-items-center wave-hover cursor-pointer">
         <a href="/destination" className="text-2xl lg:text-5xl font-bellefair">EXPLORE</a>
-      </div>
+      </button>
     </div>
   );
 }
