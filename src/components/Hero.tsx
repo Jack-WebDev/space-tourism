@@ -16,7 +16,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="relative bg-white rounded-full aspect-square w-[40vw] lg:w-[20vw] max-w-[300px] grid place-items-center wave-hover cursor-pointer">
-        <span className="text-2xl lg:text-5xl font-bellefair">EXPLORE</span>
+        <a href="/destination" className="text-2xl lg:text-5xl font-bellefair">EXPLORE</a>
       </div>
     </div>
   );
