@@ -9,10 +9,30 @@ export default function DestinationTabs() {
         className="flex justify-between items-center xl:justify-start xl:items-start"
       >
         <TabsList className="bg-transparent text-secondary ">
-          <TabsTrigger value="moon">MOON</TabsTrigger>
-          <TabsTrigger value="titan">TITAN</TabsTrigger>
-          <TabsTrigger value="mars">MARS</TabsTrigger>
-          <TabsTrigger value="europa">EUROPA</TabsTrigger>
+          <TabsTrigger
+            value="moon"
+            className="data-[state=active]:border-b-2 data-[state=active]:border-white data-[state=active]:text-white"
+          >
+            MOON
+          </TabsTrigger>
+          <TabsTrigger
+            value="titan"
+            className="data-[state=active]:border-b-2 data-[state=active]:border-white data-[state=active]:text-white"
+          >
+            TITAN
+          </TabsTrigger>
+          <TabsTrigger
+            value="mars"
+            className="data-[state=active]:border-b-2 data-[state=active]:border-white data-[state=active]:text-white"
+          >
+            MARS
+          </TabsTrigger>
+          <TabsTrigger
+            value="europa"
+            className="data-[state=active]:border-b-2 data-[state=active]:border-white data-[state=active]:text-white"
+          >
+            EUROPA
+          </TabsTrigger>
         </TabsList>
         <TabsContent value="moon" className="relative w-full text-white">
           <div className="text-white flex flex-col-reverse xl:flex-row items-center justify-between">
